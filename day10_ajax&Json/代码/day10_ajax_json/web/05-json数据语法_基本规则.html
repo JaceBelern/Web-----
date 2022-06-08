@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script>
+            //1.定义基本格式。键可以用单引号，双引号，或者不加引号，但建议格式统一。
+            var person = {"name": "张三", age: 23, 'gender': "男"};
+            // alert(person);
+
+            //2.嵌套格式   {}———> []
+            var persons = {
+                "persons": [
+                    {"name": "张三", "age": 23, "gender": true},
+                    {"name": "李四", "age": 24, "gender": true},
+                    {"name": "王五", "age": 25, "gender": false}
+                ]
+            };
+            // alert(persons);
+
+            //2.嵌套格式   []———> {}
+            var ps = [
+                {"name": "张三", "age": 23, "gender": true},
+                {"name": "李四", "age": 24, "gender": true},
+                {"name": "王五", "age": 25, "gender": false}
+            ];
+            alert(ps);
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
